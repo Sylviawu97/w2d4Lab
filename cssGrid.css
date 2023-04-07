@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 30px 1fr 1fr;
+    gap:12px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    grid-column: span 2;
+    
+    
+}
+
+#site_title{
+    
+    grid-column: span 3;
+    display:flex;
+    justify-content:space-around;
+
+    
+}
+.topmenu{
+    grid-row: span 2;
+    height: 1000px;
+    background-color:rgb(250, 96, 96);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+nav{
+    grid-column: span 3;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 182, 182);
+
+
+}
+
+#p1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+
+}
